@@ -1,0 +1,196 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: oppp;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F6FB;
+}
+
+.body-col-all {
+    background-image: url(bgreal.png) ;
+    background-size: cover;
+    height: 690px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 100px;
+    font-family: oppp;
+    
+}
+
+.nav h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.nav-control, .nav-register, .nav-login {
+    margin-top: 24px;
+}
+
+.nav-control {
+    margin-left: 170px;
+}
+
+.nav-control a, .nav-login a, .nav-register a {
+    text-decoration: none;
+    color: white;
+    font-family: opp;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    opacity: 87%;
+    transition: 0.4s;
+}
+
+.nav-control a:hover, .nav-login a:hover, .nav-register a:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.nav-control a {
+    margin-left: 68px;
+}
+
+.nav-register {
+    margin-left: 250px;
+}
+
+.nav-register a {
+    font-family: poppins;
+    border: solid white 1px;
+    padding: 2px 20px 2px 20px;
+    border-radius: 13px;
+    letter-spacing: 1.7px;
+}
+
+.nav-login {
+    margin-left: 50px;
+}
+
+.nav-login a {
+    font-family: poppins;
+    letter-spacing: 0.9px;
+}
+
+.body-text-desk {
+    margin-top: 60px;
+    margin-left: 87px;
+}
+
+.body-text-desk h1 {
+    font-family: oppp;
+    color: rgb(253, 253, 253);
+    font-size: 45px;
+    line-height: 1.5;
+}
+
+.body-text-desk p {
+    color: whitesmoke;
+    font-family: poppins;
+    letter-spacing: 0.9px;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+
+.button-nav {
+    display: flex;
+    background-color: white;
+    width: 130px;
+    padding: 8px 0px 8px 22px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+.button-nav a {
+    text-decoration: none;
+    color: #3983f7;
+    font-family: oppp;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    margin-top: 3px;
+}
+
+.bulet {
+    background-color: #3983f7;
+    border-radius: 50%;
+    padding: 3px 9px 3px 9px;
+    margin-left: 20px;   
+}
+
+.desk-txt-mid {
+    margin-left: 120px;
+}
+
+.desk-txt-mid h2 {
+    font-family: oppp;
+    font-size: 23px;
+}
+
+.desk-txt-mid h1 {
+    font-family: oppp;
+    color: orange;
+    font-size: 26px;
+    position: relative;
+    top: -29px;
+}
+
+.desk-txt-mid p {
+    font-family: opp;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    position: relative;
+    top: -27px;
+}
+
+.desk-txt-mid a {
+    background-color: white;
+    padding: 9px 17px 9px 14px;
+    text-decoration: none;
+    font-family: oppp;
+    font-size: 13px;
+    color: #2172f3;
+    border-radius: 17px;
+    box-shadow:
+  0px 0.3px 1.8px -7px rgba(0, 0, 0, 0.017),
+  0px 0.6px 4.6px -7px rgba(0, 0, 0, 0.027),
+  0px 1.1px 9px -7px rgba(0, 0, 0, 0.033),
+  0px 1.8px 15.8px -7px rgba(0, 0, 0, 0.038),
+  0px 2.7px 27px -7px rgba(0, 0, 0, 0.042),
+  0px 4.2px 44.2px -7px rgba(0, 0, 0, 0.046),
+  0px 7px 63.6px -7px rgba(0, 0, 0, 0.052),
+  0px 14px 80px -7px rgba(0, 0, 0, 0.07)
+}
+
+.container2 {
+    margin-top: 170px;
+    margin-left: 110px;
+}
+
+.container2 h1 {
+    font-family: oppp;
+    font-size: 28px;
+}
+
+.container2 p {
+    font-family: opp;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    position: relative;
+    top: -12px;
+}
